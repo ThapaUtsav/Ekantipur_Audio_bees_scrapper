@@ -1,0 +1,17 @@
+++++ Install system dependencies for Playwright
+sudo dnf install alsa-lib at-spi2-atk atk cairo cups-libs dbus-libs \
+    expat gdk-pixbuf2 glib2 gtk3 libX11 libXcomposite libXdamage \
+    libXext libXfixes libXrandr libxtst pango zlib libdrm libxshmfence
+
+
+
+% Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+% Refresh your shell
+source $HOME/.local/bin/env
+
+% Inside your project folder:
+uv init
+uv add playwright
+uv run playwright install chromium

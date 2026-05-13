@@ -1,0 +1,5 @@
+How do I set up a Playwright project on Linux (Nobara) using the uv package manager?
+write a script in python to scrape 5 articles from ekantipur.com/entertainment.
+How do I handle the author and unknown field if it is missing from a teaser using Playwright?
+I also need to extract the 'Cartoon of the Day' from the homepage of ekantipur.com. The section header is 'व्यंग्यचित्र'. I need the title, the image URL, and the author's name. Can you update my scraper.py to include this after the entertainment news task?
+i meant update my scraper.py not make a new file name scrapper.py i want u to make it it able to extract data from the required aspect in ekantipur ive previously asked
